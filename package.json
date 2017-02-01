@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Slides for my round table at MOD2017",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "watch": "node-sass --watch --recursive --output-style compact --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css",
+      "build": "node-sass --output-style compressed --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css"
   },
   "author": "Julien Maupetit",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
+    "node-sass": "^4.5.0",
     "reveal.js": "^3.4.1"
   }
 }

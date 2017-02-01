@@ -1,15 +1,17 @@
-# Traitement de données de Big Data : défis, partage de données et éthique
+# Scientific (Big) Data: challenges, sharing and ethics
 
 * Round table
 * Conference: [MOD 2017](https://mod2017.fr)
 * Date: 2017/02/06
 * Location: Montpellier, France
 
-Slides for Humans :tm: are available here: [TODO]()
-
 ## Round table outline
 
-TODO
+1. Who am I?
+2. How do you ensure data persistency?
+3. To whom belongs your research data?
+4. Why and how can we open research data?
+5. What are the main barriers to openness?
 
 ## About the author
 
@@ -23,11 +25,23 @@ his best to master his shaver.
 
 ## Hacking with this presentation
 
+Install dependencies via:
+
 ```bash
 $ npm install
 ```
 
-TODO
+Start playing:
+
+```bash
+$ make dev
+```
+
+Ship it!
+
+```
+$ make build
+```
 
 ## License
 
