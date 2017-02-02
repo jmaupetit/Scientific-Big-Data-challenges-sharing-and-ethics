@@ -34,13 +34,13 @@ $ npm install
 Start playing:
 
 ```bash
-$ make dev
+$ make serve
 ```
 
 Ship it!
 
 ```
-$ make build
+$ make publish
 ```
 
 ## License
