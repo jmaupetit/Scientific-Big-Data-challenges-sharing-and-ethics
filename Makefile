@@ -1,8 +1,7 @@
 default: build
 
 dev:
-	@npm run watch &
-	@python -mSimpleHTTPServer
+	@npm run serve
 
 build:
 	@npm run build

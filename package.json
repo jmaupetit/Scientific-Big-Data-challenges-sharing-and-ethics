@@ -3,16 +3,24 @@
   "version": "1.0.0",
   "description": "Slides for my round table at MOD2017",
   "scripts": {
-    "watch:sass": "node-sass --watch --recursive --output-style compact --include-path node_modules/reveal.js/lib/css --include-path node_modules/reveal.js/css --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css",
-    "server": "live-server --port=8000 --host=127.0.0.1 --watch=css/theme/tailordev/styles.css,index.html,slides.md --no-browser",
-    "dev": "npm run watch:sass & npm run server",
-    "build": "node-sass --output-style compressed --include-path node_modules/reveal.js/lib/css --include-path node_modules/reveal.js/css --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css"
+    "serve": "webpack-dev-server",
+    "build": "webpack -p --display-modules --progress --colors"
   },
   "author": "Julien Maupetit",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "live-server": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "html-loader": "^0.4.4",
     "node-sass": "^4.5.0",
-    "reveal.js": "^3.4.1"
+    "path": "^0.12.7",
+    "reveal.js": "^3.4.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.3"
   }
 }

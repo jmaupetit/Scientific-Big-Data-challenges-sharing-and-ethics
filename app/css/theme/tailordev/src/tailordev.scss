@@ -4,12 +4,10 @@
 */
 
 // Reveal imports
-@import "reveal.scss";
 @import "template/mixins";
 @import "template/settings";
 @import "settings-overrides";  // Theme settings
 @import "template/theme";
-@import "zenburn";
 
 // Presentation partials
 @import "fonts";
