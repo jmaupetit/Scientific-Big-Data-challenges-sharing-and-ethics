@@ -1,10 +1,17 @@
-const webpack = require('webpack');
+const autoprefixer = require('autoprefixer');
 const path = require('path');
+const webpack = require('webpack');
+
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const ROOT = path.resolve(__dirname);
 const APP = path.join(ROOT, 'app');
+const DIST = path.join(ROOT, 'dist');
+
+const extractCSS = new ExtractTextPlugin('vendor.css');
+const extractSCSS = new ExtractTextPlugin('[name].css');
 
 const config = {
   context: APP,
@@ -12,24 +19,27 @@ const config = {
     app: path.join(APP, 'index.js'),
   },
   output: {
-    path: 'dist/',
-    publicPath: '/',
+    path: DIST,
+    publicPath: '/',  // Ugly trick for relative urls (fonts, etc.)
     filename: 'js/app.js',
   },
   module: {
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader',
+        loaders: extractCSS.extract([
+          'css-loader', 'postcss-loader'
+        ]),
       },
       {
         test: /\.scss$/,
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+        loaders: extractSCSS.extract([
+          'css-loader', 'postcss-loader', 'sass-loader'
+        ]),
       },
       {
         test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
         loaders: ['file-loader?name=[path][name].[ext]&context=./app'],
-        include: APP,
       },
       {
         test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
@@ -41,11 +51,13 @@ const config = {
       },
       {
         test: /\.(jpg|png)$/,
-        loader: 'file-loader?name=[name].[ext]&outputPath=img/',
+        loader: 'file-loader?name=[path][name].[ext]&context=./app',
       },
     ],
   },
   plugins: [
+    extractCSS,
+    extractSCSS,
     new CleanWebpackPlugin(['dist']),
     new CopyWebpackPlugin([
       {
@@ -80,9 +92,13 @@ const config = {
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.LoaderOptionsPlugin({
       options: {
+        devtool: 'eval-source-map',
         sassLoader: {
           includePaths: [path.join(ROOT, 'node_modules/reveal.js/css/theme')],
         },
+        postcss: [
+          autoprefixer({ browsers: ['last 2 versions'] }),
+        ],
       },
     }),
   ],
