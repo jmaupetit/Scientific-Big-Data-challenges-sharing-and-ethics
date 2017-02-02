@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Slides for my round table at MOD2017",
   "scripts": {
-      "watch": "node-sass --watch --recursive --output-style compact --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css",
-      "build": "node-sass --output-style compressed --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css"
+    "watch:sass": "node-sass --watch --recursive --output-style compact --include-path node_modules/reveal.js/lib/css --include-path node_modules/reveal.js/css --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css",
+    "server": "live-server --port=8000 --host=127.0.0.1 --watch=css/theme/tailordev/styles.css,index.html,slides.md --no-browser",
+    "dev": "npm run watch:sass & npm run server",
+    "build": "node-sass --output-style compressed --include-path node_modules/reveal.js/lib/css --include-path node_modules/reveal.js/css --include-path node_modules/reveal.js/css/theme css/theme/tailordev/src/tailordev.scss css/theme/tailordev/styles.css"
   },
   "author": "Julien Maupetit",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
+    "live-server": "^1.2.0",
     "node-sass": "^4.5.0",
     "reveal.js": "^3.4.1"
   }
