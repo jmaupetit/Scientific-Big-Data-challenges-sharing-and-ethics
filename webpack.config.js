@@ -67,24 +67,28 @@ const config = {
         from: 'index.html',
       },
       {
+        from: 'img',
+        to: 'img',
+      },
+      {
         context: path.join(ROOT, 'node_modules'),
         from: 'reveal.js/lib/js/classList.js',
-        to: 'js/vendor/reveal.js/'
+        to: 'js/vendor/reveal.js/',
       },
       {
         context: path.join(ROOT, 'node_modules'),
         from: 'reveal.js/plugin/markdown/marked.js',
-        to: 'js/vendor/reveal.js/'
+        to: 'js/vendor/reveal.js/',
       },
       {
         context: path.join(ROOT, 'node_modules'),
         from: 'reveal.js/plugin/markdown/markdown.js',
-        to: 'js/vendor/reveal.js/'
+        to: 'js/vendor/reveal.js/',
       },
       {
         context: path.join(ROOT, 'node_modules'),
         from: 'reveal.js/plugin/highlight/highlight.js',
-        to: 'js/vendor/reveal.js/'
+        to: 'js/vendor/reveal.js/',
       },
     ]),
     new webpack.optimize.OccurrenceOrderPlugin(),
