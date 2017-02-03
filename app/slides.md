@@ -12,18 +12,137 @@
 
 ----
 
-### Spoiler
+### Disclaimer
 
-> Open Science
+I am an Open Science advocate.
 
 ----
 
 ## Outline
 
-1. `$ whoami`
-2. How do you ensure data persistency?
-3. To whom belongs your research data?
-4. Why opening research data?
-5. What are the main barriers to openness?
+1. What is your data management plan?
+2. To whom belongs your research data?
+3. Why opening research data matters?
+4. What are the main barriers to openness?
 
 ----
+
+## `$ whoami`
+---
+
+[![Paris Diderot University](img/Logo_ParisDiderot.png "Logo Paris Diderot")](http://www.univ-paris-diderot.fr/)
+
+---
+
+[![Clermont Auvergne](img/Logo_ASM.png "Logo ASM")](http://www.asm-rugby.com/)
+
+---
+
+[![ComSource](img/Logo_ComSource.png "Logo ComSource")](http://www.comsource.fr/)
+
+---
+
+[![Clermont'ech](img/Logo_Clermontech.png "Logo Clermont'ech")](http://clermontech.org/)
+
+---
+
+[![TailorDev](img/Logo_TailorDev.png "Logo TailorDev")](http://tailordev.fr/)
+
+> Our mission is to develop modern tools to ease scientific work and promote Open
+> Data, Open Science and Open Source in research entities.
+
+----
+
+## Open Science?
+
+---
+
+### A definition
+
+> Open science is the movement to make scientific research, data and
+dissemination accessible to all levels of an inquiring society, amateur or
+professional.
+
+<small>Source: [Wikipedia](https://en.wikipedia.org/wiki/Open_science)</small>
+
+---
+
+### Another definition
+
+> Open Science describes the on-going transitions in the way research is
+performed, researchers collaborate, knowledge is shared, and science is
+organised. [...] facilitating more transparency, openness, networking,
+collaboration, and refocuses science from a 'publish or perish' perspective to a
+knowledge-sharing perspective.
+
+<small>Source: [European Commission Blog](https://ec.europa.eu/commission/2014-2019/moedas/blog/opening-era-innovation_en)</small>
+
+---
+
+![OpenScience pillars](img/OpenScience_pillars.png "Open Science pillars")
+
+<small>Source: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Open_Science_-_Prinzipien.png)</small>
+
+---
+
+### Reproducibility
+
+> Data not available. Study cannot be reproduced.
+
+<small>Source: [Ingo Rohlfing's blog](https://ingorohlfing.wordpress.com/2015/06/18/two-proposals-for-incentivizing-data-archiving/)</small>
+
+---
+
+### Publishing is not enough
+
+> On estime que les publications permettent d’accéder à environ 10 % de
+celles-ci, le reste restant disponible mais non utilisé sur les disques durs
+d’ordinateurs. Dans certaines disciplines, des résultats valables et importants
+restent non publiés et beaucoup de données sont sous-utilisées ou perdues (c’est
+en particulier le cas des données issues de résultats négatifs qui sont
+oubliées).
+
+<small>Source: Les enjeux éthiques du partage des données scientifiques • Avis
+du COMETS (7 mai 2015)</small>
+
+---
+
+### Gateway to innovation
+
+---
+
+### Citizen scientists
+
+----
+
+## Data Persistency
+
+### What is your data management plan?
+
+----
+
+## Intellectual Property
+
+### To whom belongs your research data?
+
+----
+
+## Scientific Open Data
+
+### Why opening research data matters?
+
+----
+
+## Closed Research
+
+### What are the main barriers to openness?
+
+----
+
+## Thank you ♥️
+
+[![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+![](img/GitHub-Mark-120px-plus.png)
+
+[github.com/jmaupetit](https://github.com/jmaupetit/Scientific-Big-Data-challenges-sharing-and-ethics)
