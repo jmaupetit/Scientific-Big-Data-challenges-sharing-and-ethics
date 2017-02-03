@@ -5,13 +5,17 @@
 * Date: 2017/02/06
 * Location: Montpellier, France
 
+<center>
+Click below to view this presentation
+[![](preview.png "View my presentation")](https://jmaupetit.github.io/Scientific-Big-Data-challenges-sharing-and-ethics/)
+</center>
+
 ## Round table outline
 
-1. Who am I?
-2. How do you ensure data persistency?
-3. To whom belongs your research data?
-4. Why and how can we open research data?
-5. What are the main barriers to openness?
+1. What is your data management plan?
+2. To whom belongs your research data?
+3. Why opening research data matters?
+4. What are the main barriers to openness?
 
 ## About the author
 
