@@ -6,7 +6,6 @@
 * Location: Montpellier, France
 
 <center>
-Click below to view this presentation
 [![](preview.png "View my presentation")](https://jmaupetit.github.io/Scientific-Big-Data-challenges-sharing-and-ethics/)
 </center>
 
