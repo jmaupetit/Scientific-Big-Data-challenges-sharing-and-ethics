@@ -104,6 +104,7 @@ const config = {
   ],
   devServer: {
     contentBase: APP,
+    watchContentBase: true,
     hot: true,
     port: 8000,
   },
