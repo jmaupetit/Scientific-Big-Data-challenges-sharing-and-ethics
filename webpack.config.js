@@ -10,8 +10,8 @@ const ROOT = path.resolve(__dirname);
 const APP = path.join(ROOT, 'app');
 const DIST = path.join(ROOT, 'dist');
 
-const extractCSS = new ExtractTextPlugin('vendor.css');
-const extractSCSS = new ExtractTextPlugin('[name].css');
+const extractCSS = new ExtractTextPlugin('css/vendor.css');
+const extractSCSS = new ExtractTextPlugin('css/[name].css');
 
 const config = {
   context: APP,
@@ -20,7 +20,7 @@ const config = {
   },
   output: {
     path: DIST,
-    publicPath: '/',  // Ugly trick for relative urls (fonts, etc.)
+    publicPath: '/',
     filename: 'js/app.js',
   },
   module: {

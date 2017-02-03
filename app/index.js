@@ -6,7 +6,7 @@ require('./index.html');
 // Styles
 require('reveal.js/css/reveal.css');
 require('reveal.js/lib/css/zenburn.css');
-require('./css/theme/tailordev/src/tailordev.scss');
+require('./scss/tailordev.scss');
 
 // Reveal
 var Reveal = require('reveal.js');
