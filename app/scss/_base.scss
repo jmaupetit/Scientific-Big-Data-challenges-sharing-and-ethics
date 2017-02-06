@@ -6,6 +6,7 @@ a {
     padding: 0.3em !important;
 
     &:hover {
+      transform: none;
       background-color: rgba($mainColor, 0.2) !important;
     }
   }
