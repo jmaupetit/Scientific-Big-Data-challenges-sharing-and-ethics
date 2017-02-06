@@ -51,6 +51,12 @@ I am an Open Science advocate.
 > Our mission is to develop modern tools to ease scientific work and promote Open
 > Data, Open Science and Open Source in research entities.
 
+---
+
+### The Open Science Company Manifesto
+
+[http://manifesto.tailordev.fr](http://manifesto.tailordev.fr)
+
 ----
 
 ## Open Science?
