@@ -83,6 +83,24 @@ knowledge-sharing perspective.
 
 <small>Source: [Wikimedia commons](https://commons.wikimedia.org/wiki/File:Open_Science_-_Prinzipien.png)</small>
 
+----
+
+## Data Persistency
+
+### What is your data management plan?
+
+----
+
+## Intellectual Property
+
+### To whom belongs your research data?
+
+----
+
+## Scientific Open Data
+
+### Why opening research data matters?
+
 ---
 
 ### Reproducibility
@@ -120,24 +138,6 @@ du COMETS (7 mai 2015)</small>
 > smartphones.
 
 <small>Source: [Open innovation, open science, open to the world, 2016](http://bookshop.europa.eu/en/open-innovation-open-science-open-to-the-world-pbKI0416263/;pgid=GSPefJMEtXBSR0dT6jbGakZD00007loyvfoz;sid=hswoNk2foSMochX7QvW2kS-6y682RAD8mL4=?CatalogCategoryID=Gj0KABst5F4AAAEjsZAY4e5L)</small>
-
-----
-
-## Data Persistency
-
-### What is your data management plan?
-
-----
-
-## Intellectual Property
-
-### To whom belongs your research data?
-
-----
-
-## Scientific Open Data
-
-### Why opening research data matters?
 
 ----
 
