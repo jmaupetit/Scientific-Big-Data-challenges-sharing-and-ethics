@@ -109,9 +109,17 @@ du COMETS (7 mai 2015)</small>
 
 ### Gateway to innovation
 
+> Research data should go far beyond Academia.
+
 ---
 
 ### Citizen scientists
+
+> If scientists want to monitor the effects of climate change on local
+> ecosystems, for example, they can now use citizen reporting or data from
+> smartphones.
+
+<small>Source: [Open innovation, open science, open to the world, 2016](http://bookshop.europa.eu/en/open-innovation-open-science-open-to-the-world-pbKI0416263/;pgid=GSPefJMEtXBSR0dT6jbGakZD00007loyvfoz;sid=hswoNk2foSMochX7QvW2kS-6y682RAD8mL4=?CatalogCategoryID=Gj0KABst5F4AAAEjsZAY4e5L)</small>
 
 ----
 
