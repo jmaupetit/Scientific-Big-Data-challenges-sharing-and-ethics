@@ -4,6 +4,7 @@
     <h4>challenges, sharing and ethics</h4>
 
     <h6 class="author">
+      <a href="#">Pascal Poncelet</a>,
       <a href="http://julien.maupetit.me">Julien Maupetit</a>,
       <a href="https://tailordev.fr">TailorDev</a>
     </h6>
